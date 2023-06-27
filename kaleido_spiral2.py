@@ -3,8 +3,7 @@ import turtle
 from itertools import cycle
 colors = cycle(['red', 'orange', 'yellow', 'green', 'blue', 'purple'])
 
-
-def draw_circle(size, angle, shift):
+def draw_circle(size,angle,shift):
     turtle.pencolor(next(colors))
     turtle.circle(size)
     turtle.right(angle)
